@@ -28,3 +28,5 @@ You can also use "Shell" commands if you want to perform all the above actions v
 1. Reusable unit of codes
 2. NodeJS runtime or docker container environments
 3. Can be public or locally
+
+Conditional statements can also be used in the yaml files
