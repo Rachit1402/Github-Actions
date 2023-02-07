@@ -14,3 +14,17 @@ This repository consists of the Github Actions certification course hands-on
 Event triggers the Workflow and each workflow has number of jobs present. Each job has number of steps present which holds the code for different actions that gets triggered simultaneously.
 Actions basically have tasks that will be performed such as : checkout the code, build the app, deploy the app, create issues.
 You can also use "Shell" commands if you want to perform all the above actions via shell commands
+
+**Events**
+1. Web hook events -> PR, Issues, pushes
+2. Scheduled Events -> Via cronx sequence
+3. Manual Events -> Very useful when developing actions to test it. -> workflow_dispatch events
+
+**Runner**
+1. Github_hosted_runner
+2. Self_hosted_runner -> You need to configure this hosted runner with the required configurations.
+
+**Actions**
+1. Reusable unit of codes
+2. NodeJS runtime or docker container environments
+3. Can be public or locally
