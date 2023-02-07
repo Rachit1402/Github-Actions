@@ -11,5 +11,6 @@ This repository consists of the Github Actions certification course hands-on
 **Components of Actions**
 1. Events -> (triggers) -> Workflows -> (uses) -> Actions
 
-  **Events**
-  1. 
+Event triggers the Workflow and each workflow has number of jobs present. Each job has number of steps present which holds the code for different actions that gets triggered simultaneously.
+Actions basically have tasks that will be performed such as : checkout the code, build the app, deploy the app, create issues.
+You can also use "Shell" commands if you want to perform all the above actions via shell commands
