@@ -30,3 +30,6 @@ You can also use "Shell" commands if you want to perform all the above actions v
 3. Can be public or locally
 
 Conditional statements can also be used in the yaml files
+
+**Dependent Jobs**
+By default all job runs independently but there are certain scenarios where you are required to run the jobs sequentialls or in a pre-definde order. In that scenario you could use the **needs** keyword
