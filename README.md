@@ -33,3 +33,14 @@ Conditional statements can also be used in the yaml files
 
 **Dependent Jobs**
 By default all job runs independently but there are certain scenarios where you are required to run the jobs sequentialls or in a pre-definde order. In that scenario you could use the **needs** keyword
+
+**Build Matrix**
+This is very useful when we have to test the same code accross multiple versions.
+This is defined in the following ways : 
+  strategy:
+  matrix:
+    node: [6,8,10]
+  steps:
+    - uses: actions/setup-node@v2
+      with:
+        node-version: {{matrix.node}}
